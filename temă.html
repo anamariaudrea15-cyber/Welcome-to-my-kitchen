@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* CONTAINER ARTICOLE */
+        .articles {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .ciocolata {
+            flex: 1 1 300px;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+        .container-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .container-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .item-flex {
+            background-color: lightcoral;
+            padding: 20px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="articles">
+        <article class="ciocolata">
+            <header>
+                <h2>Inteligenta artificiala în educație</h2>
+            </header>
+
+            <p>Inteligența artificială în educație
+
+Inteligența artificială (IA) transformă rapid modul în care elevii învață și profesorii predau. De la aplicații care oferă explicații personalizate până la platforme care analizează progresul elevilor, tehnologia devine un sprijin important în procesul educațional.
+
+Unul dintre principalele avantaje ale IA este adaptarea conținutului la nevoile fiecărui elev. Astfel, cei care învață mai repede pot avansa fără să fie încetiniți, iar cei care au dificultăți primesc exerciții suplimentare și explicații mai detaliate. În același timp, profesorii pot economisi timp folosind instrumente automate pentru corectare sau planificare.
+
+Totuși, utilizarea inteligenței artificiale ridică și unele probleme. Dependenta de tehnologie poate reduce gândirea critică, iar accesul inegal la aceste resurse poate accentua diferențele dintre elevi. De asemenea, există întrebări legate de protecția datelor personale.
+
+În concluzie, inteligența artificială are potențialul de a îmbunătăți semnificativ educația, dar trebuie folosită cu responsabilitate, astfel încât să sprijine, nu să înlocuiască, rolul profesorului.</p>
+
+            <footer>
+                <p>Autor: chat Gbt</p>
+            </footer>
+        </article>
+
+        <article class="ciocolata">
+            <header>
+                <h2>Aplicații ale inteligenței artificiale în educație</h2>
+            </header>
+
+            <p>Una dintre cele mai relevante aplicații ale inteligenței artificiale în educație este personalizarea procesului de învățare. Aceasta permite adaptarea conținutului educațional la ritmul și nevoile fiecărui elev, oferind resurse și exerciții adecvate pentru fiecare individ.Un alt domeniu important îl constituie utilizarea asistenților virtuali și a chatbot-urilor educaționale. Aceste aplicații, bazate pe procesarea limbajului natural, oferă suport elevilor în timp real, facilitând accesul rapid la informații și clarificări. În acest mod, elevii beneficiază de un sprijin constant, independent de programul profesorului, ceea ce contribuie la consolidarea cunoștințelor și la dezvoltarea autonomiei în învățare.</p>
+
+            <footer>
+                <p>Autor: chat Gbt</p>
+            </footer>
+        </article>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>pro educație</th>
+                    <th>cons educație</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>învățare automată</td>
+                    <td>procesarea limbajului natural</td>
+                </tr>
+                <tr>
+                    <td>dezumanizare</td>
+                    <td>erori algoritmice</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section>
+        <div class="container-grid">
+            <div class="item">personalizare</div>
+            <div class="item">asistenți virtuali</div>
+            <div class="item">chatbot-uri</div>
+            <div class="item">învățare automată</div>
+            <div class="item">procesarea limbajului natural</div>
+            <div class="item">dezumanizare</div>
+        </div>
+    </section>
+
+
+    <section>
+        <video controls width="400">
+            <source src="https://archive.org/details/19380101-daffy-duck-and-egghead-mm-daffy-duck-eggh" type="video/mp4">
+        </video>
+    </section>
+
+</body>
+</html>
